@@ -51,3 +51,18 @@ app/src/main/java/com/automation/voicegesture/
 
 Standard Gradle Android project (AGP 8.2.2, Kotlin 1.9.22, compileSdk/targetSdk 34, minSdk 26).
 Open in Android Studio (Koala+) or run `./gradlew assembleDebug` with the Android SDK installed.
+
+### Get an installable APK without Android Studio
+
+A GitHub Actions workflow (`.github/workflows/build-apk.yml`) builds a debug APK on every push
+and on manual trigger:
+
+1. In the repo on GitHub, open the **Actions** tab and select the "Build debug APK" workflow
+   (or push a commit / use "Run workflow" to trigger it).
+2. Once the run finishes, open it and download the `voice-gesture-automation-debug-apk` artifact
+   — it's a zip containing `app-debug.apk`.
+3. Transfer the APK to an Android phone and open it to install (allow "install unknown apps" for
+   the app you use to open the file, e.g. Files or Chrome, if prompted).
+
+This is a debug build (unsigned with a debug key), so it installs fine for testing but isn't
+meant for distribution through Google Play.
