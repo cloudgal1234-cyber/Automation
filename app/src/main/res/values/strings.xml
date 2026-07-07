@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Gesture Automation</string>
+    <string name="add_automation_title">New Automation</string>
+
+    <string name="automations_title">Your Automations</string>
+    <string name="listening_switch_label">Listen for voice commands</string>
+    <string name="empty_state_message">No automations yet.\nTap + to link a spoken word to a gesture.</string>
+    <string name="accessibility_enabled">Accessibility service: enabled</string>
+    <string name="accessibility_disabled">Accessibility service: disabled — tap to enable</string>
+    <string name="open_accessibility_settings">Enable Accessibility Service</string>
+    <string name="mic_permission_required">Microphone permission is required to listen for voice commands</string>
+
+    <string name="trigger_word_hint">Word to listen for</string>
+    <string name="gesture_area_hint">Draw the gesture to replay here</string>
+    <string name="clear_gesture">Clear</string>
+    <string name="save_automation">Save Automation</string>
+    <string name="error_word_required">Enter a word to listen for</string>
+    <string name="error_gesture_required">Draw a gesture first</string>
+    <string name="automation_saved">Automation saved</string>
+    <string name="delete_automation">Delete</string>
+
+    <string name="notification_channel_name">Voice listening</string>
+    <string name="notification_title">Listening for voice commands</string>
+    <string name="notification_text">Tap to open Voice Gesture Automation</string>
+
+    <string name="accessibility_service_description">Allows Voice Gesture Automation to replay the on-screen gestures you recorded when your trigger word is heard.</string>
+</resources>
